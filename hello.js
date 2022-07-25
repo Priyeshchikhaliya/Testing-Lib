@@ -6,5 +6,5 @@ const { chromium } = require("playwright");
 
   await page.goto("https://www.wikipedia.org/");
 
-  // await browser.close();
+  await browser.close();
 })();
